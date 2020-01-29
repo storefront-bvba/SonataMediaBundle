@@ -1,5 +1,5 @@
 {
-    "name": "sonata-project/media-bundle",
+    "name": "storefront/media-bundle",
     "type": "symfony-bundle",
     "description": "Symfony SonataMediaBundle",
     "keywords": [
@@ -114,5 +114,8 @@
             "Sonata\\MediaBundle\\Tests\\": "tests/",
             "Sonata\\ClassificationBundle\\": "tests/fixtures/SonataClassificationBundle"
         }
+    },
+    "replace": {
+        "sonata-project/media-bundle": "3.23.*"
     }
 }
